@@ -7,7 +7,7 @@
 <br />
 <br />
 
-# ResumeForge AI
+# ResumeForge
 
 **Build ATS-ready resumes in minutes — powered by Google Gemini AI**
 
@@ -36,7 +36,7 @@
 
 ## Overview
 
-ResumeForge AI is a resume builder that helps students and professionals create ATS-friendly resumes with the help of Google's Gemini AI. It handles everything from writing assistance and ATS scoring to cloud storage and PDF export — all in one place.
+ResumeForge is a modern resume builder that helps students and professionals create ATS-friendly resumes with AI-powered writing assistance. It combines resume editing, ATS analysis, cloud storage, and PDF export into one simple application.
 
 ---
 
@@ -109,7 +109,7 @@ ResumeForge AI is a resume builder that helps students and professionals create 
 | Resume Dashboard | View, rename, duplicate, and delete saved resumes |
 | Resume Completion Score | Track how complete your resume is |
 | Firebase Authentication | Secure login, registration, and password reset |
-| Cloud Storage | Resumes are saved to Firestore and sync across devices |
+| Cloud Sync | Save and access your resumes securely using Firestore. |
 | PDF Export | Download an ATS-friendly PDF version of your resume |
 | Responsive Design | Works on desktop and mobile |
 
@@ -235,7 +235,7 @@ ResumeForge-AI/
 
 ---
 
-## Roadmap
+## Future Improvements
 
 Features I plan to add:
 

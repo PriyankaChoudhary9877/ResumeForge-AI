@@ -2,7 +2,7 @@
 
 <br />
 
-<img src="public/landing-page.png" alt="ResumeForge AI" width="100%" style="border-radius: 12px;" />
+<img src="public/landing-page.png" alt="ResumeForge AI" width="100%" />
 
 <br />
 <br />
@@ -22,17 +22,6 @@
 </p>
 
 <p>
-  <a href="https://github.com/PriyankaChoudhary9877/ResumeForge-AI">
-    <img src="https://img.shields.io/github/stars/karnk7236/ResumeForge-AI?style=flat-square&color=f4c430&label=Stars" />
-  </a>
-  <a href="https://github.com/PriyankaChoudhary9877/ResumeForge-AI">
-    <img src="https://img.shields.io/github/forks/karnk7236/ResumeForge-AI?style=flat-square&color=4285F4&label=Forks" />
-  </a>
-  <img src="https://img.shields.io/badge/License-MIT-22c55e?style=flat-square" />
-  <img src="https://img.shields.io/badge/PRs-Welcome-a855f7?style=flat-square" />
-</p>
-
-<p>
   <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Vite_5-646CFF?style=flat-square&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
@@ -47,13 +36,11 @@
 
 ## Overview
 
-**ResumeForge AI** is a modern resume builder designed for students, freshers, and professionals who want to create polished, ATS-friendly resumes in minutes — not hours.
-
-Unlike traditional resume builders, ResumeForge AI integrates **Google's Gemini AI** to analyze your resume, generate professional summaries, enhance bullet points, and surface missing keywords. Pair that with Firebase-backed cloud sync, multiple templates, live preview, and one-click PDF export, and you have a complete resume platform in your browser.
+ResumeForge AI is a resume builder that helps students and professionals create ATS-friendly resumes with the help of Google's Gemini AI. It handles everything from writing assistance and ATS scoring to cloud storage and PDF export — all in one place.
 
 ---
 
-## App Preview
+## Screenshots
 
 <table>
   <tr>
@@ -79,7 +66,7 @@ Unlike traditional resume builders, ResumeForge AI integrates **Google's Gemini 
 </table>
 
 <details>
-<summary><b>View More Screenshots</b></summary>
+<summary><b>More Screenshots</b></summary>
 
 <br />
 
@@ -89,7 +76,7 @@ Unlike traditional resume builders, ResumeForge AI integrates **Google's Gemini 
   <img src="public/ats-role.png" width="70%" alt="ATS Role Selection" />
 </p>
 
-**ATS Analysis — AI Processing**
+**ATS Analysis — Processing**
 
 <p align="center">
   <img src="public/ats-loading.png" width="70%" alt="ATS Loading" />
@@ -110,68 +97,21 @@ Unlike traditional resume builders, ResumeForge AI integrates **Google's Gemini 
 
 ## Features
 
-### Resume Builder
-
-| Section | Supported |
-|---|:---:|
-| Personal Information | ✅ |
-| Education | ✅ |
-| Skills | ✅ |
-| Projects | ✅ |
-| Work Experience | ✅ |
-| Certifications | ✅ |
-| Achievements | ✅ |
-| Additional Sections | ✅ |
-| Profile Photo | ✅ |
-
-### AI Capabilities
-
 | Feature | Description |
 |---|---|
-| ATS Resume Analysis | Scores your resume against ATS criteria with section-by-section breakdown |
-| Professional Summary Generator | Crafts a tailored summary based on your resume content |
-| Resume Bullet Improvement | Rewrites weak bullet points with stronger, impact-driven language |
-| Missing Keyword Detection | Identifies keywords absent from your resume for a target role |
-| Resume Strength Analysis | Evaluates overall resume quality and flags gaps |
-| Role-Based Analysis | Optimizes your resume for a specific job title or industry |
-
-### Resume Management
-
-| Feature | Supported |
-|---|:---:|
-| Save Multiple Resumes | ✅ |
-| Resume Dashboard | ✅ |
-| Edit Resume | ✅ |
-| Rename Resume | ✅ |
-| Duplicate Resume | ✅ |
-| Delete Resume | ✅ |
-| Resume Completion Score | ✅ |
-
-### Export & Import
-
-| Option | Supported |
-|---|:---:|
-| ATS-Friendly PDF Export | ✅ |
-| JSON Export | ✅ |
-| JSON Import | ✅ |
-
-### Authentication
-
-| Feature | Supported |
-|---|:---:|
-| Email Login | ✅ |
-| User Registration | ✅ |
-| Forgot Password | ✅ |
-| Firebase Authentication | ✅ |
-
-### Customization
-
-| Feature | Supported |
-|---|:---:|
-| Multiple Resume Templates | ✅ |
-| Theme Customization | ✅ |
-| Responsive Design | ✅ |
-| Live Resume Preview | ✅ |
+| AI ATS Analysis | Score your resume for ATS compatibility with per-section feedback |
+| AI Summary Generator | Generate a professional summary based on your resume content |
+| AI Resume Improvement | Improve bullet points in your experience and project sections |
+| Missing Keyword Detection | Identify keywords missing for a specific target role |
+| Live Resume Preview | See changes reflected in real time as you edit |
+| Multiple Templates | Choose from several resume layout options |
+| Theme Customization | Adjust colors and styling to match your preference |
+| Resume Dashboard | View, rename, duplicate, and delete saved resumes |
+| Resume Completion Score | Track how complete your resume is |
+| Firebase Authentication | Secure login, registration, and password reset |
+| Cloud Storage | Resumes are saved to Firestore and sync across devices |
+| PDF Export | Download an ATS-friendly PDF version of your resume |
+| Responsive Design | Works on desktop and mobile |
 
 ---
 
@@ -226,7 +166,7 @@ Unlike traditional resume builders, ResumeForge AI integrates **Google's Gemini 
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/PriyankaChoudhary9877/ResumeForge-AI
+git clone https://github.com/PriyankaChoudhary9877/ResumeForge-AI.git
 cd ResumeForge-AI
 ```
 
@@ -259,19 +199,12 @@ npm run dev
 </details>
 
 <details>
-<summary><b>Build & Preview</b></summary>
+<summary><b>Build for Production</b></summary>
 
 <br />
 
-**Production build**
-
 ```bash
 npm run build
-```
-
-**Preview production build locally**
-
-```bash
 npm run preview
 ```
 
@@ -285,21 +218,12 @@ npm run preview
 ResumeForge-AI/
 │
 ├── public/                    # Static assets & screenshots
-│   ├── landing-page.png
-│   ├── dashboard.png
-│   ├── resume-builder.png
-│   ├── ai-improve.png
-│   ├── ats-role.png
-│   ├── ats-loading.png
-│   ├── ats-result.png
-│   ├── login.png
-│   └── register.png
 │
 ├── src/
-│   ├── components/            # Reusable UI components
+│   ├── components/            # UI components
 │   ├── context/               # React context providers
-│   ├── lib/                   # External service integrations
-│   ├── utils/                 # Helper functions & utilities
+│   ├── lib/                   # Firebase and API setup
+│   ├── utils/                 # Helper functions
 │   ├── App.jsx
 │   ├── App.css
 │   └── main.jsx
@@ -311,94 +235,14 @@ ResumeForge-AI/
 
 ---
 
-## AI Workflow
-
-ResumeForge AI routes resume data through Google's Gemini API at each stage of the writing process.
-
-```
-User Resume Data
-       │
-       ▼
-┌─────────────────────┐
-│   Gemini AI Engine  │
-├─────────────────────┤
-│ • ATS Compatibility │
-│ • Summary Writing   │
-│ • Bullet Rewriting  │
-│ • Keyword Analysis  │
-│ • Strength Scoring  │
-│ • Role Matching     │
-└─────────────────────┘
-       │
-       ▼
- Actionable Results
-```
-
-**ATS Analysis evaluates:**
-
-- Contact Information · Professional Summary · Education
-- Skills · Work Experience · Projects · Certifications · Achievements
-
-**ATS Analysis outputs:**
-
-- Overall ATS Score · Per-section Scores · Resume Strengths
-- Improvement Suggestions · Missing Keywords
-
----
-
-## Firebase Integration
-
-Firebase provides the authentication and persistence layer for ResumeForge AI.
-
-- **Auth** — Email registration, login, and password reset via Firebase Authentication
-- **Storage** — Each resume is stored in Cloud Firestore, enabling multi-device sync
-- **Security** — All data is scoped to the authenticated user; no resume is accessible without login
-
----
-
-## Why ResumeForge AI?
-
-ResumeForge AI was built to solve a real problem: most resume builders help you *format* a resume, but they don't help you *improve* it.
-
-By combining AI-powered writing assistance, ATS analysis, and cloud storage into one platform, ResumeForge AI gives users a meaningful edge in the job search — not just a prettier PDF.
-
-**Built for:**
-
-> Students &nbsp;·&nbsp; Freshers &nbsp;·&nbsp; Software Developers &nbsp;·&nbsp; Working Professionals &nbsp;·&nbsp; Career Switchers
-
----
-
 ## Roadmap
 
-Planned features for future releases:
+Features I plan to add:
 
-| Feature | Status |
-|---|:---:|
-| Cover Letter Generator | 🔜 |
-| Resume Import | 🔜 |
-| Resume Sharing | 🔜 |
-| AI Interview Preparation | 🔜 |
-| Resume Version History | 🔜 |
-| Additional Resume Templates | 🔜 |
-| Dark Mode | 🔜 |
-| Resume Analytics | 🔜 |
-| Job Description Matching | 🔜 |
-| AI Resume Rewrite | 🔜 |
-
----
-
-## Acknowledgements
-
-Built with the following open-source tools and services:
-
-[React](https://reactjs.org) &nbsp;·&nbsp;
-[Vite](https://vitejs.dev) &nbsp;·&nbsp;
-[Firebase](https://firebase.google.com) &nbsp;·&nbsp;
-[Google Gemini AI](https://ai.google.dev) &nbsp;·&nbsp;
-[Lucide React](https://lucide.dev) &nbsp;·&nbsp;
-[Vercel](https://vercel.com)
-
-Special thanks to the open-source community for the tools and libraries that made this possible.
+- Cover Letter Generator
+- Resume Import
+- More Resume Templates
+- Dark Mode
 
 ---
 
@@ -430,31 +274,12 @@ Special thanks to the open-source community for the tools and libraries that mad
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 <div align="center">
 
-<br />
-
-**ResumeForge AI** — Professional Resume Builder powered by React, Firebase, and Google Gemini AI.
+If you found this project helpful, consider giving it a ⭐ on GitHub.
 
 <br />
 
-If this project helped you, please consider giving it a ⭐ on GitHub — it means a lot!
-
-<br />
-
-<a href="https://resumeforge-ai-rho.vercel.app">
-  <img src="https://img.shields.io/badge/Try%20ResumeForge%20AI-9C6B45?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-
-<br />
-<br />
-
-*Designed and developed with ❤️ by [Priyanka Choudhary](https://github.com/PriyankaChoudhary9877)*
+Designed and developed by Priyanka Choudhary.
 
 </div>

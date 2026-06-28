@@ -114,7 +114,7 @@ function closeDeleteModal() {
       <div className="dashboard-hero-row">
         <div>
           <h2>My Saved Resumes</h2>
-          <p>Access, edit, and manage all your resumes in one place.</p>
+          <p>Access, edit, manage, and enhance your resumes with AI-powered writing assistance.</p>
         </div>
 
         <button type="button" className="dashboard-new-btn" onClick={onNewResume}>
@@ -146,7 +146,7 @@ function closeDeleteModal() {
           <div>
             <h3>✓</h3>
             <strong>Cloud Sync</strong>
-            <p>Saved to Firebase</p>
+            <p>Secure cloud storage</p>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@ function closeDeleteModal() {
           <div className="empty-illustration">
             <FileText size={92} />
           </div>
-          <h3>Start building your first ATS-friendly resume.</h3>
+          <h3>Create your first AI-powered ATS-friendly resume.</h3>
           <p>Create, customize, and export a professional ATS-friendly resume in minutes.</p>
           <button type="button" className="dashboard-new-btn" onClick={onNewResume}>
             Create your first resume →

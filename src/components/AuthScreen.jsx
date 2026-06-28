@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useAuth } from '../context/AuthContext'
-import { FileText, ShieldCheck, Download, Cloud } from 'lucide-react'
+import { Sparkles, ShieldCheck, Download, Cloud } from 'lucide-react'
 
 function friendlyError(code) {
   const map = {
@@ -86,25 +86,25 @@ export default function AuthScreen() {
       <main className="rf-hero">
         <section className="rf-hero-copy">
           <h1>
-            Build ATS-Friendly
+            Build AI-Powered ATS
             <br />
-            Resumes That Get
+            Resumes  That Get
             <br/>
             You Hired.
           </h1>
 
           <p>
-            Design polished resumes, optimize for ATS screening, and export professional PDFs in minutes.
+            Create polished ATS-friendly resumes with AI-powered assistance, ATS analysis, live preview, and PDF download.
           </p>
 
           <div className="rf-feature-row">
             <div className="rf-feature">
-              <FileText />
-              <strong>Student<br />Friendly</strong>
+              <Sparkles />
+              <strong>AI<br />Assistance</strong>
             </div>
             <div className="rf-feature">
               <ShieldCheck />
-              <strong>ATS<br />Optimized</strong>
+              <strong>ATS<br />Analysis</strong>
             </div>
             <div className="rf-feature">
               <Download />
